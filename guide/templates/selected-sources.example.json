@@ -1,0 +1,173 @@
+{
+  "character_id": "<new-character-id>",
+  "status": "TEMPLATE — fill with selected generated sources before publishing",
+  "base": {
+    "original": "base/base-selected.png",
+    "job_id": null,
+    "approved": false,
+    "prompt_log": "generation-log.json"
+  },
+  "generation_defaults": {
+    "provider": "Higgsfield",
+    "model": "gpt_image_2_5",
+    "variant": "sunburst",
+    "quality": "high",
+    "resolution": "2k"
+  },
+  "states": {
+    "idle": {
+      "version": 1,
+      "original": "raw-original/idle-v1.png",
+      "selected_alias": "raw-original/idle.png",
+      "job_id": null,
+      "sha256": null,
+      "aspect_ratio": "21:9",
+      "frames": 4,
+      "identity_reference": "<new base job/media id>",
+      "guide_reference": "<4-slot guide media id>"
+    },
+    "walk": {
+      "version": 1,
+      "original": "raw-original/walk-v1.png",
+      "selected_alias": "raw-original/walk.png",
+      "job_id": null,
+      "sha256": null,
+      "aspect_ratio": "21:9",
+      "frames": 4,
+      "identity_reference": "<new base job/media id>",
+      "guide_reference": "<4-slot guide media id>"
+    },
+    "run": {
+      "version": 1,
+      "original": "raw-original/run-v1.png",
+      "selected_alias": "raw-original/run.png",
+      "job_id": null,
+      "sha256": null,
+      "aspect_ratio": "21:9",
+      "frames": 4,
+      "identity_reference": "<new base job/media id>",
+      "guide_reference": "<4-slot guide media id>"
+    },
+    "jump": {
+      "version": 1,
+      "original": "raw-original/jump-v1.png",
+      "selected_alias": "raw-original/jump.png",
+      "job_id": null,
+      "sha256": null,
+      "aspect_ratio": "1:1",
+      "frames": 1,
+      "identity_reference": "<new base job/media id>",
+      "guide_reference": null
+    },
+    "doublejump": {
+      "version": 1,
+      "original": "raw-original/doublejump-v1.png",
+      "selected_alias": "raw-original/doublejump.png",
+      "job_id": null,
+      "sha256": null,
+      "aspect_ratio": "1:1",
+      "frames": 1,
+      "identity_reference": "<new base job/media id>",
+      "guide_reference": null
+    },
+    "crouch": {
+      "version": 1,
+      "original": "raw-original/crouch-v1.png",
+      "selected_alias": "raw-original/crouch.png",
+      "job_id": null,
+      "sha256": null,
+      "aspect_ratio": "21:9",
+      "frames": 4,
+      "identity_reference": "<new base job/media id>",
+      "guide_reference": "<4-slot guide media id>"
+    },
+    "attack1": {
+      "version": 1,
+      "original": "raw-original/attack1-v1.png",
+      "selected_alias": "raw-original/attack1.png",
+      "job_id": null,
+      "sha256": null,
+      "aspect_ratio": "21:9",
+      "frames": 4,
+      "identity_reference": "<new base job/media id>",
+      "guide_reference": "<4-slot guide media id>"
+    },
+    "attack2": {
+      "version": 1,
+      "original": "raw-original/attack2-v1.png",
+      "selected_alias": "raw-original/attack2.png",
+      "job_id": null,
+      "sha256": null,
+      "aspect_ratio": "21:9",
+      "frames": 4,
+      "identity_reference": "<new base job/media id>",
+      "guide_reference": "<4-slot guide media id>"
+    },
+    "attack3": {
+      "version": 1,
+      "original": "raw-original/attack3-v1.png",
+      "selected_alias": "raw-original/attack3.png",
+      "job_id": null,
+      "sha256": null,
+      "aspect_ratio": "21:9",
+      "frames": 4,
+      "identity_reference": "<new base job/media id>",
+      "guide_reference": "<4-slot guide media id>"
+    },
+    "skill1": {
+      "version": 1,
+      "original": "raw-original/skill1-v1.png",
+      "selected_alias": "raw-original/skill1.png",
+      "job_id": null,
+      "sha256": null,
+      "aspect_ratio": "21:9",
+      "frames": 4,
+      "identity_reference": "<new base job/media id>",
+      "guide_reference": "<4-slot guide media id>"
+    },
+    "skill2": {
+      "version": 1,
+      "original": "raw-original/skill2-v1.png",
+      "selected_alias": "raw-original/skill2.png",
+      "job_id": null,
+      "sha256": null,
+      "aspect_ratio": "21:9",
+      "frames": 4,
+      "identity_reference": "<new base job/media id>",
+      "guide_reference": "<4-slot guide media id>"
+    },
+    "ultimate": {
+      "version": 1,
+      "original": "raw-original/ultimate-v1.png",
+      "selected_alias": "raw-original/ultimate.png",
+      "job_id": null,
+      "sha256": null,
+      "aspect_ratio": "21:9",
+      "frames": 4,
+      "identity_reference": "<new base job/media id>",
+      "guide_reference": "<4-slot guide media id>"
+    },
+    "hurt": {
+      "version": 1,
+      "original": "raw-original/hurt-v1.png",
+      "selected_alias": "raw-original/hurt.png",
+      "job_id": null,
+      "sha256": null,
+      "aspect_ratio": "21:9",
+      "frames": 4,
+      "identity_reference": "<new base job/media id>",
+      "guide_reference": "<4-slot guide media id>"
+    },
+    "down": {
+      "version": 1,
+      "original": "raw-original/down-v1.png",
+      "selected_alias": "raw-original/down.png",
+      "job_id": null,
+      "sha256": null,
+      "aspect_ratio": "21:9",
+      "frames": 4,
+      "identity_reference": "<new base job/media id>",
+      "guide_reference": "<4-slot guide media id>"
+    }
+  }
+}

@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=cover">
+<meta name="theme-color" content="#101923">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<title>AETHER CLASH — Mecha vs Demi-Human</title>
+<style>
+  html,body{margin:0;width:100%;height:100%;overflow:hidden;background:#101923;overscroll-behavior:none;touch-action:none}
+  #game{position:fixed;left:0;top:0;border:0;display:block;transform-origin:0 0;background:#101923}
+</style>
+</head>
+<body>
+<!--
+  Mobile shell: the game always runs in a landscape box. In portrait the whole box (menu, HUD, dialogs and touch
+  controls included) is rotated 90 degrees, so the phone shows the same landscape layout either way. The game lives in
+  an iframe so its own viewport, media queries and vh/vw units see the landscape size, not the phone's portrait size.
+-->
+<iframe id="game" title="AETHER CLASH" allow="fullscreen; autoplay"></iframe>
+<script>
+(() => {
+  'use strict';
+  const frame = document.getElementById('game');
+  const query = new URLSearchParams(location.search);
+  query.set('embed', '1');
+  frame.src = 'index.html?' + query.toString() + location.hash;
+  function layout() {
+    const vv = window.visualViewport, w = Math.round(vv ? vv.width : innerWidth), h = Math.round(vv ? vv.height : innerHeight);
+    const portrait = h > w;
+    // Rotate clockwise: the content top ends on the phone's right edge, so the phone is turned counter-clockwise to read it.
+    frame.style.width = (portrait ? h : w) + 'px';
+    frame.style.height = (portrait ? w : h) + 'px';
+    frame.style.transform = portrait ? `translateX(${w}px) rotate(90deg)` : 'none';
+    document.documentElement.dataset.rotated = String(portrait);
+  }
+  // Android Chrome: the first touch goes fullscreen and locks landscape, so the phone really turns and no CSS rotation is
+  // needed. iOS Safari has neither API for pages, so the CSS rotation above keeps the layout landscape there.
+  async function goLandscape() {
+    try { if (!document.fullscreenElement) await document.documentElement.requestFullscreen?.({ navigationUI: 'hide' }); } catch (_) {}
+    try { await screen.orientation?.lock?.('landscape'); } catch (_) {}
+    layout();
+  }
+  let activated = false;
+  // Called synchronously from the game's own click/tap handler (same origin), so the browser still sees the user gesture;
+  // a postMessage arrives a task later, when some browsers no longer allow fullscreen.
+  // The first tap of the session may itself be the fullscreen button: its pointerdown already asked for fullscreen, so the
+  // click that follows within a moment must not toggle it back off.
+  let requestedAt = -1e9;
+  const enter = () => { requestedAt = performance.now(); goLandscape(); };
+  window.aetherFullscreen = () => { if (performance.now() - requestedAt < 1500) return; if (document.fullscreenElement) document.exitFullscreen?.().catch(() => {}); else enter(); };
+  window.aetherActivate = () => { if (!activated) { activated = true; enter(); } };
+  addEventListener('message', e => {
+    if (e.origin !== location.origin || e.source !== frame.contentWindow) return;
+    if (e.data?.type === 'aether-activate') window.aetherActivate();
+    if (e.data?.type === 'aether-fullscreen') window.aetherFullscreen();
+  });
+  addEventListener('resize', layout);
+  addEventListener('orientationchange', () => setTimeout(layout, 120));
+  window.visualViewport?.addEventListener('resize', layout);
+  layout();
+})();
+</script>
+</body>
+</html>

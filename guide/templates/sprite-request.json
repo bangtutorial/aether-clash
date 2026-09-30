@@ -1,0 +1,95 @@
+{
+  "cell": {
+    "width": 320,
+    "height": 288,
+    "safe_margin_x": 10,
+    "safe_margin_y": 8
+  },
+  "states": {
+    "idle": {
+      "frames": 4,
+      "fps": 5,
+      "loop": true,
+      "action": "Subtle breathing; head and torso steady; feet planted, seamless quiet loop."
+    },
+    "walk": {
+      "frames": 4,
+      "fps": 10,
+      "loop": true,
+      "action": "Right-facing alternating walk: near-leg contact, far-leg passing with feet close, far-leg contact, near-leg passing."
+    },
+    "run": {
+      "frames": 4,
+      "fps": 13,
+      "loop": true,
+      "action": "Right-facing sprint, forward torso lean; alternating wide contact and narrow passing; same anatomy and scale as idle."
+    },
+    "jump": {
+      "frames": 1,
+      "fps": 10,
+      "loop": false,
+      "action": "One athletic airborne pose, bent elbows, one knee moderately raised with shin down, trailing leg relaxed. No rigid idle hover, no kick, no deep tuck."
+    },
+    "doublejump": {
+      "frames": 1,
+      "fps": 12,
+      "loop": false,
+      "action": "One compact tucked airborne pose, both knees together, arms/props close. Full-size head and anatomy. Runtime supplies the 360-degree rotation."
+    },
+    "crouch": {
+      "frames": 4,
+      "fps": 8,
+      "loop": false,
+      "action": "Lower into guard, hold crouch, small guard shift, return toward crouch-ready stance. Bend joints; do not shrink anatomy."
+    },
+    "attack1": {
+      "frames": 4,
+      "fps": 13,
+      "loop": false,
+      "action": "Light combo opener: wind-up, strike, full impact extension, recovery toward idle guard. Adapt gesture to the character's weapon."
+    },
+    "attack2": {
+      "frames": 4,
+      "fps": 13,
+      "loop": false,
+      "action": "Second combo gesture with a different silhouette: wind-up, strike, impact, recovery at consistent body scale."
+    },
+    "attack3": {
+      "frames": 4,
+      "fps": 11,
+      "loop": false,
+      "action": "Heavier finisher: anticipation, strike, full impact, upright recovery matching idle size."
+    },
+    "skill1": {
+      "frames": 4,
+      "fps": 11,
+      "loop": false,
+      "action": "Prepare, aim, fire/cast, recover. No detached projectiles in the character art; movement release belongs to runtime."
+    },
+    "skill2": {
+      "frames": 4,
+      "fps": 10,
+      "loop": false,
+      "action": "Prepare, wind-up, area-impact pose, recover. No dust, debris, shockwaves or detached effects in the sprite."
+    },
+    "ultimate": {
+      "frames": 4,
+      "fps": 9,
+      "loop": false,
+      "action": "Short cast/command sequence, same head and torso scale. Summoned objects and cut-in are separate assets."
+    },
+    "hurt": {
+      "frames": 4,
+      "fps": 9,
+      "loop": false,
+      "action": "Front hit recoil, backward stagger, regain balance, return to guard. Right-facing, no blood or impact effects."
+    },
+    "down": {
+      "frames": 4,
+      "fps": 7,
+      "loop": false,
+      "action": "Fall backward to left: recoil, fall, land on back, lie flat head left/feet right. Identical anatomy; large gaps between poses."
+    }
+  },
+  "style": "Refined hi-bit pixel art, anime chibi; match the approved NEW character base exactly. Same palette, anatomy, outline weight and pixel density in all states."
+}

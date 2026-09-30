@@ -1,0 +1,20 @@
+# AETHER CLASH (Apache / LiteSpeed). nginx ignores this file; see install.md.
+# Game files are revalidated on every load (ETag/Last-Modified); the game keeps its own hashed copies in Cache Storage.
+<IfModule mod_mime.c>
+  AddType text/javascript .js
+  AddType image/webp .webp
+  AddType audio/mpeg .mp3
+  AddType video/mp4 .mp4
+  AddType font/ttf .ttf
+  AddType application/json .json
+  AddType image/svg+xml .svg
+</IfModule>
+
+<IfModule mod_headers.c>
+  Header set Cache-Control "no-cache"
+</IfModule>
+
+# Text only: MP3/MP4 must stay uncompressed so range requests (206) keep working.
+<IfModule mod_deflate.c>
+  AddOutputFilterByType DEFLATE text/html text/css text/javascript application/javascript application/json image/svg+xml
+</IfModule>

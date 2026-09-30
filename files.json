@@ -1,0 +1,1114 @@
+{
+  "files": 277,
+  "bytes": 33878708,
+  "list": [
+    {
+      "file": "index.html",
+      "bytes": 12682
+    },
+    {
+      "file": "mobile.html",
+      "bytes": 3704
+    },
+    {
+      "file": "style.css",
+      "bytes": 25732
+    },
+    {
+      "file": "menu.css",
+      "bytes": 28728
+    },
+    {
+      "file": "preload.js",
+      "bytes": 4166
+    },
+    {
+      "file": "game.js",
+      "bytes": 170044
+    },
+    {
+      "file": "menu.js",
+      "bytes": 24312
+    },
+    {
+      "file": "match.js",
+      "bytes": 4262
+    },
+    {
+      "file": "announcer.js",
+      "bytes": 3135
+    },
+    {
+      "file": "touch.js",
+      "bytes": 4896
+    },
+    {
+      "file": "fenr.js",
+      "bytes": 2941
+    },
+    {
+      "file": "mira.js",
+      "bytes": 2052
+    },
+    {
+      "file": "cora.js",
+      "bytes": 2302
+    },
+    {
+      "file": "naja.js",
+      "bytes": 2509
+    },
+    {
+      "file": "haldor.js",
+      "bytes": 2677
+    },
+    {
+      "file": "zanni.js",
+      "bytes": 2799
+    },
+    {
+      "file": "isolde.js",
+      "bytes": 2635
+    },
+    {
+      "file": "rhea.js",
+      "bytes": 2656
+    },
+    {
+      "file": "solan.js",
+      "bytes": 2701
+    },
+    {
+      "file": "nib.js",
+      "bytes": 2524
+    },
+    {
+      "file": "edda.js",
+      "bytes": 2832
+    },
+    {
+      "file": "assets/ui/drone.png",
+      "bytes": 18724
+    },
+    {
+      "file": "assets/menu/locked.svg",
+      "bytes": 697
+    },
+    {
+      "file": "assets/audio/announcer/arco_wins.mp3",
+      "bytes": 23031
+    },
+    {
+      "file": "assets/audio/announcer/cora_wins.mp3",
+      "bytes": 21359
+    },
+    {
+      "file": "assets/audio/announcer/double_ko.mp3",
+      "bytes": 24285
+    },
+    {
+      "file": "assets/audio/announcer/draw.mp3",
+      "bytes": 17598
+    },
+    {
+      "file": "assets/audio/announcer/edda_wins.mp3",
+      "bytes": 17598
+    },
+    {
+      "file": "assets/audio/announcer/fenr_wins.mp3",
+      "bytes": 24285
+    },
+    {
+      "file": "assets/audio/announcer/fight.mp3",
+      "bytes": 17598
+    },
+    {
+      "file": "assets/audio/announcer/haldor_wins.mp3",
+      "bytes": 21359
+    },
+    {
+      "file": "assets/audio/announcer/isolde_wins.mp3",
+      "bytes": 24285
+    },
+    {
+      "file": "assets/audio/announcer/ko.mp3",
+      "bytes": 11328
+    },
+    {
+      "file": "assets/audio/announcer/manifest.js",
+      "bytes": 3383
+    },
+    {
+      "file": "assets/audio/announcer/mira_wins.mp3",
+      "bytes": 26793
+    },
+    {
+      "file": "assets/audio/announcer/naja_wins.mp3",
+      "bytes": 23031
+    },
+    {
+      "file": "assets/audio/announcer/nib_wins.mp3",
+      "bytes": 23031
+    },
+    {
+      "file": "assets/audio/announcer/rhea_wins.mp3",
+      "bytes": 21359
+    },
+    {
+      "file": "assets/audio/announcer/round_1.mp3",
+      "bytes": 17598
+    },
+    {
+      "file": "assets/audio/announcer/round_2.mp3",
+      "bytes": 35570
+    },
+    {
+      "file": "assets/audio/announcer/round_3.mp3",
+      "bytes": 21359
+    },
+    {
+      "file": "assets/audio/announcer/select_arco.mp3",
+      "bytes": 15090
+    },
+    {
+      "file": "assets/audio/announcer/select_cora.mp3",
+      "bytes": 15090
+    },
+    {
+      "file": "assets/audio/announcer/select_edda.mp3",
+      "bytes": 16344
+    },
+    {
+      "file": "assets/audio/announcer/select_fenr.mp3",
+      "bytes": 17598
+    },
+    {
+      "file": "assets/audio/announcer/select_haldor.mp3",
+      "bytes": 18852
+    },
+    {
+      "file": "assets/audio/announcer/select_isolde.mp3",
+      "bytes": 11328
+    },
+    {
+      "file": "assets/audio/announcer/select_mira.mp3",
+      "bytes": 21359
+    },
+    {
+      "file": "assets/audio/announcer/select_naja.mp3",
+      "bytes": 18852
+    },
+    {
+      "file": "assets/audio/announcer/select_nib.mp3",
+      "bytes": 15090
+    },
+    {
+      "file": "assets/audio/announcer/select_rhea.mp3",
+      "bytes": 16344
+    },
+    {
+      "file": "assets/audio/announcer/select_solan.mp3",
+      "bytes": 15090
+    },
+    {
+      "file": "assets/audio/announcer/select_zanni.mp3",
+      "bytes": 18852
+    },
+    {
+      "file": "assets/audio/announcer/solan_wins.mp3",
+      "bytes": 22612
+    },
+    {
+      "file": "assets/audio/announcer/time_up.mp3",
+      "bytes": 20106
+    },
+    {
+      "file": "assets/audio/announcer/zanni_wins.mp3",
+      "bytes": 24284
+    },
+    {
+      "file": "assets/audio/arco-ultimate-dylan.mp3",
+      "bytes": 36824
+    },
+    {
+      "file": "assets/audio/music/midday-showdown.mp3",
+      "bytes": 1571832
+    },
+    {
+      "file": "assets/cora/audio/cora-ultimate-anika.mp3",
+      "bytes": 28882
+    },
+    {
+      "file": "assets/cora/audio/cora_wins.mp3",
+      "bytes": 21359
+    },
+    {
+      "file": "assets/cora/audio/select_cora.mp3",
+      "bytes": 15090
+    },
+    {
+      "file": "assets/cora/manifest.js",
+      "bytes": 11440
+    },
+    {
+      "file": "assets/cora/run/sprite-sheet-alpha.webp",
+      "bytes": 1500730
+    },
+    {
+      "file": "assets/cora/ui/cutin.webp",
+      "bytes": 189114
+    },
+    {
+      "file": "assets/cora/ui/fx-feather.webp",
+      "bytes": 5044
+    },
+    {
+      "file": "assets/cora/ui/fx-gust.webp",
+      "bytes": 14152
+    },
+    {
+      "file": "assets/cora/ui/fx-raven.webp",
+      "bytes": 10750
+    },
+    {
+      "file": "assets/cora/ui/icon-basic.webp",
+      "bytes": 21044
+    },
+    {
+      "file": "assets/cora/ui/icon-skill1.webp",
+      "bytes": 17310
+    },
+    {
+      "file": "assets/cora/ui/icon-skill2.webp",
+      "bytes": 19240
+    },
+    {
+      "file": "assets/cora/ui/icon-ultimate.webp",
+      "bytes": 28518
+    },
+    {
+      "file": "assets/cora/ui/portrait.webp",
+      "bytes": 37954
+    },
+    {
+      "file": "assets/edda/audio/edda-ultimate.mp3",
+      "bytes": 23030
+    },
+    {
+      "file": "assets/edda/audio/edda_wins.mp3",
+      "bytes": 17598
+    },
+    {
+      "file": "assets/edda/audio/select_edda.mp3",
+      "bytes": 16344
+    },
+    {
+      "file": "assets/edda/manifest.js",
+      "bytes": 12097
+    },
+    {
+      "file": "assets/edda/run/sprite-sheet-alpha.webp",
+      "bytes": 1595536
+    },
+    {
+      "file": "assets/edda/ui/cutin.webp",
+      "bytes": 264670
+    },
+    {
+      "file": "assets/edda/ui/fx-ripple.webp",
+      "bytes": 6940
+    },
+    {
+      "file": "assets/edda/ui/fx-shell.webp",
+      "bytes": 17640
+    },
+    {
+      "file": "assets/edda/ui/fx-stomp.webp",
+      "bytes": 13468
+    },
+    {
+      "file": "assets/edda/ui/fx-stone.webp",
+      "bytes": 7698
+    },
+    {
+      "file": "assets/edda/ui/fx-tortoise.webp",
+      "bytes": 60852
+    },
+    {
+      "file": "assets/edda/ui/icon-basic.webp",
+      "bytes": 26148
+    },
+    {
+      "file": "assets/edda/ui/icon-skill1.webp",
+      "bytes": 20836
+    },
+    {
+      "file": "assets/edda/ui/icon-skill2.webp",
+      "bytes": 23314
+    },
+    {
+      "file": "assets/edda/ui/icon-ultimate.webp",
+      "bytes": 31242
+    },
+    {
+      "file": "assets/edda/ui/portrait.webp",
+      "bytes": 34176
+    },
+    {
+      "file": "assets/fenr/audio/fenr-ultimate-holden.mp3",
+      "bytes": 23031
+    },
+    {
+      "file": "assets/fenr/human/manifest.js",
+      "bytes": 11411
+    },
+    {
+      "file": "assets/fenr/human/run/sprite-sheet-alpha.webp",
+      "bytes": 1486412
+    },
+    {
+      "file": "assets/fenr/ui/cutin.webp",
+      "bytes": 119558
+    },
+    {
+      "file": "assets/fenr/ui/fx-bite.webp",
+      "bytes": 8948
+    },
+    {
+      "file": "assets/fenr/ui/fx-claw.webp",
+      "bytes": 7178
+    },
+    {
+      "file": "assets/fenr/ui/fx-gale.webp",
+      "bytes": 4970
+    },
+    {
+      "file": "assets/fenr/ui/fx-howl.webp",
+      "bytes": 10784
+    },
+    {
+      "file": "assets/fenr/ui/fx-rush.webp",
+      "bytes": 10026
+    },
+    {
+      "file": "assets/fenr/ui/fx-transform.webp",
+      "bytes": 15202
+    },
+    {
+      "file": "assets/fenr/ui/icon-human-basic.webp",
+      "bytes": 11026
+    },
+    {
+      "file": "assets/fenr/ui/icon-human-skill1.webp",
+      "bytes": 6122
+    },
+    {
+      "file": "assets/fenr/ui/icon-human-skill2.webp",
+      "bytes": 9938
+    },
+    {
+      "file": "assets/fenr/ui/icon-ultimate.webp",
+      "bytes": 14998
+    },
+    {
+      "file": "assets/fenr/ui/icon-wolf-basic.webp",
+      "bytes": 15864
+    },
+    {
+      "file": "assets/fenr/ui/icon-wolf-skill1.webp",
+      "bytes": 10442
+    },
+    {
+      "file": "assets/fenr/ui/icon-wolf-skill2.webp",
+      "bytes": 8652
+    },
+    {
+      "file": "assets/fenr/ui/portrait-human.webp",
+      "bytes": 24324
+    },
+    {
+      "file": "assets/fenr/ui/portrait-wolf.webp",
+      "bytes": 27618
+    },
+    {
+      "file": "assets/fenr/wolf/manifest.js",
+      "bytes": 11436
+    },
+    {
+      "file": "assets/fenr/wolf/run/sprite-sheet-alpha.webp",
+      "bytes": 2360632
+    },
+    {
+      "file": "assets/fonts/Rajdhani-Bold.ttf",
+      "bytes": 400680
+    },
+    {
+      "file": "assets/fonts/Rajdhani-Medium.ttf",
+      "bytes": 384348
+    },
+    {
+      "file": "assets/haldor/audio/haldor-ultimate.mp3",
+      "bytes": 20106
+    },
+    {
+      "file": "assets/haldor/audio/haldor_wins.mp3",
+      "bytes": 21359
+    },
+    {
+      "file": "assets/haldor/audio/select_haldor.mp3",
+      "bytes": 18852
+    },
+    {
+      "file": "assets/haldor/manifest.js",
+      "bytes": 11455
+    },
+    {
+      "file": "assets/haldor/run/sprite-sheet-alpha.webp",
+      "bytes": 1950620
+    },
+    {
+      "file": "assets/haldor/ui/cutin.webp",
+      "bytes": 226036
+    },
+    {
+      "file": "assets/haldor/ui/fx-quake.webp",
+      "bytes": 12184
+    },
+    {
+      "file": "assets/haldor/ui/fx-slag.webp",
+      "bytes": 11300
+    },
+    {
+      "file": "assets/haldor/ui/fx-splash.webp",
+      "bytes": 9562
+    },
+    {
+      "file": "assets/haldor/ui/fx-steam.webp",
+      "bytes": 6432
+    },
+    {
+      "file": "assets/haldor/ui/icon-basic.webp",
+      "bytes": 28334
+    },
+    {
+      "file": "assets/haldor/ui/icon-skill1.webp",
+      "bytes": 16502
+    },
+    {
+      "file": "assets/haldor/ui/icon-skill2.webp",
+      "bytes": 23904
+    },
+    {
+      "file": "assets/haldor/ui/icon-ultimate.webp",
+      "bytes": 31006
+    },
+    {
+      "file": "assets/haldor/ui/portrait.webp",
+      "bytes": 46308
+    },
+    {
+      "file": "assets/isolde/audio/isolde-ultimate.mp3",
+      "bytes": 30972
+    },
+    {
+      "file": "assets/isolde/audio/isolde_wins.mp3",
+      "bytes": 24285
+    },
+    {
+      "file": "assets/isolde/audio/select_isolde.mp3",
+      "bytes": 11328
+    },
+    {
+      "file": "assets/isolde/manifest.js",
+      "bytes": 11797
+    },
+    {
+      "file": "assets/isolde/run/sprite-sheet-alpha.webp",
+      "bytes": 1550448
+    },
+    {
+      "file": "assets/isolde/ui/cutin.webp",
+      "bytes": 226498
+    },
+    {
+      "file": "assets/isolde/ui/fx-frost.webp",
+      "bytes": 8318
+    },
+    {
+      "file": "assets/isolde/ui/fx-piercer.webp",
+      "bytes": 6690
+    },
+    {
+      "file": "assets/isolde/ui/fx-shatter.webp",
+      "bytes": 15232
+    },
+    {
+      "file": "assets/isolde/ui/fx-skyfall.webp",
+      "bytes": 7412
+    },
+    {
+      "file": "assets/isolde/ui/icon-basic.webp",
+      "bytes": 14166
+    },
+    {
+      "file": "assets/isolde/ui/icon-skill1.webp",
+      "bytes": 20634
+    },
+    {
+      "file": "assets/isolde/ui/icon-skill2.webp",
+      "bytes": 23448
+    },
+    {
+      "file": "assets/isolde/ui/icon-ultimate.webp",
+      "bytes": 26876
+    },
+    {
+      "file": "assets/isolde/ui/portrait.webp",
+      "bytes": 41656
+    },
+    {
+      "file": "assets/mecha/manifest.js",
+      "bytes": 13266
+    },
+    {
+      "file": "assets/mecha/run/sprite-sheet-alpha.webp",
+      "bytes": 1140340
+    },
+    {
+      "file": "assets/menu/arco-select.webp",
+      "bytes": 83804
+    },
+    {
+      "file": "assets/menu/azure-harbor.webp",
+      "bytes": 116560
+    },
+    {
+      "file": "assets/menu/cora-select.webp",
+      "bytes": 85066
+    },
+    {
+      "file": "assets/menu/edda-select.webp",
+      "bytes": 98000
+    },
+    {
+      "file": "assets/menu/elderwood.webp",
+      "bytes": 130386
+    },
+    {
+      "file": "assets/menu/fenr-select.webp",
+      "bytes": 84330
+    },
+    {
+      "file": "assets/menu/haldor-select.webp",
+      "bytes": 110328
+    },
+    {
+      "file": "assets/menu/home-art.webp",
+      "bytes": 188424
+    },
+    {
+      "file": "assets/menu/home-factions-loop.mp4",
+      "bytes": 1417101
+    },
+    {
+      "file": "assets/menu/home-factions.webp",
+      "bytes": 148524
+    },
+    {
+      "file": "assets/menu/isolde-select.webp",
+      "bytes": 119740
+    },
+    {
+      "file": "assets/menu/mira-select.webp",
+      "bytes": 89058
+    },
+    {
+      "file": "assets/menu/moonrise.webp",
+      "bytes": 68134
+    },
+    {
+      "file": "assets/menu/naja-select.webp",
+      "bytes": 130418
+    },
+    {
+      "file": "assets/menu/nib-select.webp",
+      "bytes": 77832
+    },
+    {
+      "file": "assets/menu/rhea-select.webp",
+      "bytes": 107980
+    },
+    {
+      "file": "assets/menu/solan-select.webp",
+      "bytes": 112452
+    },
+    {
+      "file": "assets/menu/sunspire.webp",
+      "bytes": 49268
+    },
+    {
+      "file": "assets/menu/zanni-select.webp",
+      "bytes": 117976
+    },
+    {
+      "file": "assets/mira/audio/mira-ultimate-luna.mp3",
+      "bytes": 23448
+    },
+    {
+      "file": "assets/mira/audio/mira_wins.mp3",
+      "bytes": 26793
+    },
+    {
+      "file": "assets/mira/audio/select_mira.mp3",
+      "bytes": 21359
+    },
+    {
+      "file": "assets/mira/manifest.js",
+      "bytes": 11852
+    },
+    {
+      "file": "assets/mira/run/sprite-sheet-alpha.webp",
+      "bytes": 2237726
+    },
+    {
+      "file": "assets/mira/ui/cutin.webp",
+      "bytes": 209146
+    },
+    {
+      "file": "assets/mira/ui/fx-burst.webp",
+      "bytes": 17352
+    },
+    {
+      "file": "assets/mira/ui/fx-crash.webp",
+      "bytes": 13328
+    },
+    {
+      "file": "assets/mira/ui/fx-rocket.webp",
+      "bytes": 6158
+    },
+    {
+      "file": "assets/mira/ui/fx-star.webp",
+      "bytes": 6094
+    },
+    {
+      "file": "assets/mira/ui/icon-basic.webp",
+      "bytes": 17856
+    },
+    {
+      "file": "assets/mira/ui/icon-skill1.webp",
+      "bytes": 15306
+    },
+    {
+      "file": "assets/mira/ui/icon-skill2.webp",
+      "bytes": 25404
+    },
+    {
+      "file": "assets/mira/ui/icon-ultimate.webp",
+      "bytes": 25152
+    },
+    {
+      "file": "assets/mira/ui/portrait.webp",
+      "bytes": 38620
+    },
+    {
+      "file": "assets/naja/audio/naja-ultimate-soraya.mp3",
+      "bytes": 21359
+    },
+    {
+      "file": "assets/naja/audio/naja_wins.mp3",
+      "bytes": 23031
+    },
+    {
+      "file": "assets/naja/audio/select_naja.mp3",
+      "bytes": 18852
+    },
+    {
+      "file": "assets/naja/manifest.js",
+      "bytes": 11430
+    },
+    {
+      "file": "assets/naja/run/sprite-sheet-alpha.webp",
+      "bytes": 1621460
+    },
+    {
+      "file": "assets/naja/ui/cutin.webp",
+      "bytes": 304792
+    },
+    {
+      "file": "assets/naja/ui/fx-cyclone.webp",
+      "bytes": 14950
+    },
+    {
+      "file": "assets/naja/ui/fx-ripple.webp",
+      "bytes": 8958
+    },
+    {
+      "file": "assets/naja/ui/fx-sandwave.webp",
+      "bytes": 9302
+    },
+    {
+      "file": "assets/naja/ui/fx-serpent.webp",
+      "bytes": 65082
+    },
+    {
+      "file": "assets/naja/ui/icon-basic.webp",
+      "bytes": 27428
+    },
+    {
+      "file": "assets/naja/ui/icon-skill1.webp",
+      "bytes": 24914
+    },
+    {
+      "file": "assets/naja/ui/icon-skill2.webp",
+      "bytes": 28412
+    },
+    {
+      "file": "assets/naja/ui/icon-ultimate.webp",
+      "bytes": 29388
+    },
+    {
+      "file": "assets/naja/ui/portrait.webp",
+      "bytes": 38558
+    },
+    {
+      "file": "assets/nib/audio/nib-ultimate.mp3",
+      "bytes": 20523
+    },
+    {
+      "file": "assets/nib/audio/nib_wins.mp3",
+      "bytes": 23031
+    },
+    {
+      "file": "assets/nib/audio/select_nib.mp3",
+      "bytes": 15090
+    },
+    {
+      "file": "assets/nib/manifest.js",
+      "bytes": 11785
+    },
+    {
+      "file": "assets/nib/run/sprite-sheet-alpha.webp",
+      "bytes": 1145842
+    },
+    {
+      "file": "assets/nib/ui/cutin.webp",
+      "bytes": 185052
+    },
+    {
+      "file": "assets/nib/ui/fx-letter.webp",
+      "bytes": 4924
+    },
+    {
+      "file": "assets/nib/ui/fx-plane.webp",
+      "bytes": 4572
+    },
+    {
+      "file": "assets/nib/ui/fx-slip.webp",
+      "bytes": 22866
+    },
+    {
+      "file": "assets/nib/ui/fx-stamp.webp",
+      "bytes": 19112
+    },
+    {
+      "file": "assets/nib/ui/icon-basic.webp",
+      "bytes": 22936
+    },
+    {
+      "file": "assets/nib/ui/icon-skill1.webp",
+      "bytes": 12434
+    },
+    {
+      "file": "assets/nib/ui/icon-skill2.webp",
+      "bytes": 19034
+    },
+    {
+      "file": "assets/nib/ui/icon-ultimate.webp",
+      "bytes": 18786
+    },
+    {
+      "file": "assets/nib/ui/portrait.webp",
+      "bytes": 28462
+    },
+    {
+      "file": "assets/rhea/audio/rhea-ultimate.mp3",
+      "bytes": 21359
+    },
+    {
+      "file": "assets/rhea/audio/rhea_wins.mp3",
+      "bytes": 21359
+    },
+    {
+      "file": "assets/rhea/audio/select_rhea.mp3",
+      "bytes": 16344
+    },
+    {
+      "file": "assets/rhea/manifest.js",
+      "bytes": 11682
+    },
+    {
+      "file": "assets/rhea/run/sprite-sheet-alpha.webp",
+      "bytes": 1274018
+    },
+    {
+      "file": "assets/rhea/ui/cutin.webp",
+      "bytes": 209154
+    },
+    {
+      "file": "assets/rhea/ui/fx-burst.webp",
+      "bytes": 19276
+    },
+    {
+      "file": "assets/rhea/ui/fx-drift.webp",
+      "bytes": 9482
+    },
+    {
+      "file": "assets/rhea/ui/fx-planet.webp",
+      "bytes": 17248
+    },
+    {
+      "file": "assets/rhea/ui/fx-well.webp",
+      "bytes": 21730
+    },
+    {
+      "file": "assets/rhea/ui/icon-basic.webp",
+      "bytes": 17416
+    },
+    {
+      "file": "assets/rhea/ui/icon-skill1.webp",
+      "bytes": 12188
+    },
+    {
+      "file": "assets/rhea/ui/icon-skill2.webp",
+      "bytes": 24152
+    },
+    {
+      "file": "assets/rhea/ui/icon-ultimate.webp",
+      "bytes": 26232
+    },
+    {
+      "file": "assets/rhea/ui/portrait.webp",
+      "bytes": 38584
+    },
+    {
+      "file": "assets/showcase/edda/portrait.webp",
+      "bytes": 34176
+    },
+    {
+      "file": "assets/showcase/haldor/portrait.webp",
+      "bytes": 46308
+    },
+    {
+      "file": "assets/showcase/isolde/portrait.webp",
+      "bytes": 41656
+    },
+    {
+      "file": "assets/showcase/naja/portrait.webp",
+      "bytes": 38558
+    },
+    {
+      "file": "assets/showcase/nib/portrait.webp",
+      "bytes": 28462
+    },
+    {
+      "file": "assets/showcase/rhea/portrait.webp",
+      "bytes": 38584
+    },
+    {
+      "file": "assets/showcase/showcase.js",
+      "bytes": 150
+    },
+    {
+      "file": "assets/showcase/solan/portrait.webp",
+      "bytes": 42714
+    },
+    {
+      "file": "assets/showcase/zanni/portrait.webp",
+      "bytes": 33856
+    },
+    {
+      "file": "assets/solan/audio/select_solan.mp3",
+      "bytes": 15090
+    },
+    {
+      "file": "assets/solan/audio/solan-ultimate.mp3",
+      "bytes": 21359
+    },
+    {
+      "file": "assets/solan/audio/solan_wins-raw.mp3",
+      "bytes": 26793
+    },
+    {
+      "file": "assets/solan/audio/solan_wins.mp3",
+      "bytes": 22612
+    },
+    {
+      "file": "assets/solan/manifest.js",
+      "bytes": 11759
+    },
+    {
+      "file": "assets/solan/run/sprite-sheet-alpha.webp",
+      "bytes": 1812930
+    },
+    {
+      "file": "assets/solan/ui/cutin.webp",
+      "bytes": 221154
+    },
+    {
+      "file": "assets/solan/ui/fx-crescent.webp",
+      "bytes": 10074
+    },
+    {
+      "file": "assets/solan/ui/fx-impact.webp",
+      "bytes": 12828
+    },
+    {
+      "file": "assets/solan/ui/fx-roar.webp",
+      "bytes": 16002
+    },
+    {
+      "file": "assets/solan/ui/fx-sunburst.webp",
+      "bytes": 17286
+    },
+    {
+      "file": "assets/solan/ui/icon-basic.webp",
+      "bytes": 21426
+    },
+    {
+      "file": "assets/solan/ui/icon-skill1.webp",
+      "bytes": 16616
+    },
+    {
+      "file": "assets/solan/ui/icon-skill2.webp",
+      "bytes": 24528
+    },
+    {
+      "file": "assets/solan/ui/icon-ultimate.webp",
+      "bytes": 26478
+    },
+    {
+      "file": "assets/solan/ui/portrait.webp",
+      "bytes": 42714
+    },
+    {
+      "file": "assets/stage-config.js",
+      "bytes": 330
+    },
+    {
+      "file": "assets/stage.webp",
+      "bytes": 84514
+    },
+    {
+      "file": "assets/ui/arco-avatar.webp",
+      "bytes": 28238
+    },
+    {
+      "file": "assets/ui/attack.webp",
+      "bytes": 6744
+    },
+    {
+      "file": "assets/ui/drone-config.js",
+      "bytes": 196
+    },
+    {
+      "file": "assets/ui/dummy-avatar.webp",
+      "bytes": 22410
+    },
+    {
+      "file": "assets/ui/icons-check.webp",
+      "bytes": 32114
+    },
+    {
+      "file": "assets/ui/skill1.webp",
+      "bytes": 8908
+    },
+    {
+      "file": "assets/ui/skill2.webp",
+      "bytes": 9788
+    },
+    {
+      "file": "assets/ui/squadron-icon.webp",
+      "bytes": 6466
+    },
+    {
+      "file": "assets/ui/ultimate-cutin.webp",
+      "bytes": 126218
+    },
+    {
+      "file": "assets/ui/ultimate.webp",
+      "bytes": 7504
+    },
+    {
+      "file": "assets/zanni/audio/select_zanni.mp3",
+      "bytes": 18852
+    },
+    {
+      "file": "assets/zanni/audio/zanni-ultimate.mp3",
+      "bytes": 17598
+    },
+    {
+      "file": "assets/zanni/audio/zanni_wins-raw.mp3",
+      "bytes": 34316
+    },
+    {
+      "file": "assets/zanni/audio/zanni_wins.mp3",
+      "bytes": 24284
+    },
+    {
+      "file": "assets/zanni/manifest.js",
+      "bytes": 11595
+    },
+    {
+      "file": "assets/zanni/run/sprite-sheet-alpha.webp",
+      "bytes": 1555686
+    },
+    {
+      "file": "assets/zanni/ui/cutin.webp",
+      "bytes": 206256
+    },
+    {
+      "file": "assets/zanni/ui/fx-bigring.webp",
+      "bytes": 24056
+    },
+    {
+      "file": "assets/zanni/ui/fx-confetti.webp",
+      "bytes": 16344
+    },
+    {
+      "file": "assets/zanni/ui/fx-ring.webp",
+      "bytes": 14902
+    },
+    {
+      "file": "assets/zanni/ui/fx-snatch.webp",
+      "bytes": 19366
+    },
+    {
+      "file": "assets/zanni/ui/icon-basic.webp",
+      "bytes": 25846
+    },
+    {
+      "file": "assets/zanni/ui/icon-skill1.webp",
+      "bytes": 17230
+    },
+    {
+      "file": "assets/zanni/ui/icon-skill2.webp",
+      "bytes": 19002
+    },
+    {
+      "file": "assets/zanni/ui/icon-ultimate.webp",
+      "bytes": 28306
+    },
+    {
+      "file": "assets/zanni/ui/portrait.webp",
+      "bytes": 33856
+    },
+    {
+      "file": "precache.js",
+      "bytes": 15499
+    },
+    {
+      "file": "sw.js",
+      "bytes": 1358
+    }
+  ]
+}

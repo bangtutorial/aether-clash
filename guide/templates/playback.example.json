@@ -1,0 +1,20 @@
+{
+  "_note": "EXAMPLE ONLY. Replace every null pivot coordinate with an integer measured on this character's final atlas. Do not load this file into the game before measuring.",
+  "jump": {
+    "airFrame": 0,
+    "torsoPivot": {
+      "x": null,
+      "y": null
+    }
+  },
+  "doublejump": {
+    "mode": "rotate",
+    "frame": 0,
+    "duration": 0.28,
+    "pivot": {
+      "x": null,
+      "y": null
+    }
+  },
+  "measurement": "<record original/final image, landmark method, and observed transition evidence>"
+}

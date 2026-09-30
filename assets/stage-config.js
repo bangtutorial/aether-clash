@@ -1,0 +1,1 @@
+window.STAGE_CONFIG = {"width": 1280, "height": 720, "groundY": 599, "floorBand": [528, 719], "name": "Bellora Courtyard", "source": "Seedream 5.0 Pro", "jobId": "d7eefba6-0006-4658-ab30-43e269426dc9", "measurement": "continuous lower limestone band with >=63% bright warm paving; ground 37% into band; visual review required"};

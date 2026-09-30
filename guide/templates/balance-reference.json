@@ -1,0 +1,38 @@
+{
+  "_note": "Reference data only. The current runtime reads BALANCE from game.js; this is not an implemented external config loader.",
+  "combo": [
+    {
+      "damage": 6,
+      "knockback": 75
+    },
+    {
+      "damage": 8,
+      "knockback": 100
+    },
+    {
+      "damage": 12,
+      "knockback": 180
+    }
+  ],
+  "skill1": {
+    "damage": 16,
+    "cooldown": 3,
+    "knockback": 140
+  },
+  "skill2": {
+    "damage": 24,
+    "cooldown": 6,
+    "knockback": 220,
+    "radius": 220
+  },
+  "ultimate": {
+    "damagePerDrone": 12,
+    "cooldown": 18,
+    "castTime": 0.5,
+    "knockback": 190
+  },
+  "dummyMax": 200,
+  "heroMax": 200,
+  "hpPerBar": 100,
+  "basicCooldownRefund": 0.05
+}
